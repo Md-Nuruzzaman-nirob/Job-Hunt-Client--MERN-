@@ -1,3 +1,9 @@
+/* google font family Red Hat Display */
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800&display=swap");
+
+/* google font family Epilogue */
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
