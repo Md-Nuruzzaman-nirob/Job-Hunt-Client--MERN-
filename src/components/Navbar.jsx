@@ -2,6 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 import Button from "./Button";
 import Container from "./Container";
 import { useState } from "react";
+import Logo from "./Logo";
 
 const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
@@ -20,7 +21,7 @@ const Navbar = () => {
         Home
       </NavLink>
       <NavLink
-        to="/findJob"
+        to="/findJobs"
         className={({ isActive, isPending }) =>
           isPending
             ? "pending"
@@ -46,28 +47,28 @@ const Navbar = () => {
     </>
   );
   return (
-    <Container>
-      {" "}
-      <nav className="flex items-center justify-between py-5">
-        <div>
-          <h2 className="text-2xl font-bold font-redHatDisplay">
-            Job <span>Hunt</span>
-          </h2>
-        </div>
+    <div className="fixed w-full z-50 bg-[#F8F8FD]">
+      <Container className="flex items-center justify-between py-5">
+        <Logo />
         <div className="hidden lg:flex items-center gap-8 font-Epilogue font-semibold opacity-80">
           {navLink}
         </div>
         <div className="hidden lg:flex items-center">
-          <Link className="text-indigo-700 font-semibold hover:underline underline-offset-4">
+          <Link
+            to={"/login"}
+            className="text-indigo-700 font-semibold hover:underline underline-offset-4"
+          >
             Login
           </Link>
           <div className="divider divider-horizontal"></div>
-          <Button className="hover:underline underline-offset-4">
-            Sign Up
-          </Button>
+          <Link to={"/signUp"}>
+            <Button className="hover:underline underline-offset-4">
+              Sign Up
+            </Button>
+          </Link>
         </div>
         <div className="flex lg:hidden">
-          <label className="btn btn-circle swap swap-rotate">
+          <label className="btn btn-circle bg-white hover:bg-white/90 swap swap-rotate">
             {/* this hidden checkbox controls the state */}
             <input onClick={() => setNavOpen(!navOpen)} type="checkbox" />
 
@@ -95,14 +96,12 @@ const Navbar = () => {
           </label>
         </div>
         <div
-          className={`lg:hidden fixed top-0 left-0 w-3/4 sm:w-2/5 h-screen z-50 bg-indigo-700 text-white px-5  transition-transform transform  ${
+          className={`lg:hidden fixed top-0 left-0 w-3/4 sm:w-2/5 h-screen z-50 bg-indigo-600 text-white px-5  transition-transform transform  ${
             navOpen ? "translate-x-0" : "-translate-x-full"
           } duration-700 ease-in-out`}
         >
           <div className="flex items-center justify-center h-[88px]">
-            <h2 className="text-2xl font-bold font-redHatDisplay">
-              Job <span>Hunt</span>
-            </h2>
+            <Logo />
           </div>
           <div className="flex flex-col gap-4 lg:hidden font-Epilogue font-semibold opacity-80 border-t py-12">
             <NavLink
@@ -111,20 +110,20 @@ const Navbar = () => {
                 isPending
                   ? "pending"
                   : isActive
-                  ? "underline underline-offset-4 btn bg-indigo-900 hover:bg-indigo-900 text-white border-none"
-                  : "hover:underline underline-offset-4 btn bg-indigo-800 hover:bg-indigo-900 text-white border-none"
+                  ? "underline underline-offset-4 btn bg-indigo-800 hover:bg-indigo-800 text-white border-none"
+                  : "hover:underline underline-offset-4 btn bg-indigo-700 hover:bg-indigo-800 text-white border-none"
               }
             >
               Home
             </NavLink>
             <NavLink
-              to="/findJob"
+              to="/findJobs"
               className={({ isActive, isPending }) =>
                 isPending
                   ? "pending"
                   : isActive
-                  ? "underline underline-offset-4 btn  bg-indigo-900 hover:bg-indigo-900 text-white border-none"
-                  : "hover:underline underline-offset-4 btn bg-indigo-800 hover:bg-indigo-900 text-white border-none"
+                  ? "underline underline-offset-4 btn  bg-indigo-800 hover:bg-indigo-800 text-white border-none"
+                  : "hover:underline underline-offset-4 btn bg-indigo-700 hover:bg-indigo-800 text-white border-none"
               }
             >
               Find Job
@@ -135,22 +134,27 @@ const Navbar = () => {
                 isPending
                   ? "pending"
                   : isActive
-                  ? "underline underline-offset-4 btn bg-indigo-900 hover:bg-indigo-900 text-white border-none"
-                  : "hover:underline underline-offset-4 btn bg-indigo-800 hover:bg-indigo-900 text-white border-none"
+                  ? "underline underline-offset-4 btn bg-indigo-800 hover:bg-indigo-800 text-white border-none"
+                  : "hover:underline underline-offset-4 btn bg-indigo-700 hover:bg-indigo-800 text-white border-none"
               }
             >
               Browse Companies
             </NavLink>
-            <Button className="btn-md bg-indigo-800 hover:bg-indigo-900 hover:underline underline-offset-4">
-              Login
-            </Button>
-            <Button className="btn-md bg-indigo-800 hover:bg-indigo-900 hover:underline underline-offset-4">
-              Sign Up
-            </Button>
+            <Link to={"/login"}>
+              <Button className="w-full btn-md bg-indigo-700 hover:bg-indigo-800 hover:underline underline-offset-4">
+                Login
+              </Button>
+            </Link>
+            <Link to={"/signUp"}>
+              {" "}
+              <Button className="w-full btn-md bg-indigo-700 hover:bg-indigo-800 hover:underline underline-offset-4">
+                Sign Up
+              </Button>
+            </Link>
           </div>
         </div>
-      </nav>
-    </Container>
+      </Container>
+    </div>
   );
 };
 

@@ -1,0 +1,195 @@
+[
+    {
+      "id": 1,
+      "category": "Sales",
+      "icon":"../src/assets/icon/Name=Sales.svg",
+      "totalJobs": 4,
+      "jobs": [
+        {
+          "title": "Sales Representative",
+          "description": "Responsible for selling products or services to customers and maintaining positive customer relationships."
+        },
+        {
+          "title": "Sales Manager",
+          "description": "Oversees the sales team, sets targets, and develops strategies to achieve sales goals."
+        },
+        {
+          "title": "Account Executive",
+          "description": "Manages client accounts, builds relationships, and ensures client satisfaction with products or services."
+        },
+        {
+          "title": "Business Development Manager",
+          "description": "Identifies new business opportunities, builds partnerships, and drives growth for the company."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Design",
+      "icon":"../src/assets/icon//Name=Design.svg",
+      "totalJobs": 4,
+      "jobs": [
+        {
+          "title": "Graphic Designer",
+          "description": "Creates visual concepts using computer software to communicate ideas that inspire, inform, or captivate consumers."
+        },
+        {
+          "title": "UI/UX Designer",
+          "description": "Focuses on the user experience and interface design, ensuring digital products are user-friendly and visually appealing."
+        },
+        {
+          "title": "Product Designer",
+          "description": "Designs and develops products, considering functionality, aesthetics, and user experience."
+        },
+        {
+          "title": "Industrial Designer",
+          "description": "Creates designs for industrial products, balancing form, function, and manufacturability."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Marketing",
+      "icon":"../src/assets/icon/Name=Marketing.svg",
+      "totalJobs": 4,
+      "jobs": [
+        {
+          "title": "Marketing Manager",
+          "description": "Plans and executes marketing strategies to promote products or services and achieve business objectives."
+        },
+        {
+          "title": "Digital Marketing Specialist",
+          "description": "Utilizes digital channels such as social media and online platforms to reach and engage target audiences."
+        },
+        {
+          "title": "Public Relations Specialist",
+          "description": "Manages the public image of a company or individual, crafting and maintaining a positive public perception."
+        },
+        {
+          "title": "Market Research Analyst",
+          "description": "Collects and analyzes data to help companies understand market trends, customer preferences, and competitive products."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Finance",
+      "icon":"../src/assets/icon/Name=Finance.svg",
+      "totalJobs": 4,
+      "jobs": [
+        {
+          "title": "Accountant",
+          "description": "Manages financial records, prepares financial statements, and ensures compliance with accounting regulations."
+        },
+        {
+          "title": "Financial Analyst",
+          "description": "Analyzes financial data, prepares reports, and provides insights to help businesses make informed financial decisions."
+        },
+        {
+          "title": "Investment Banker",
+          "description": "Provides financial advice, raises capital, and facilitates mergers and acquisitions for clients in the financial industry."
+        },
+        {
+          "title": "Actuary",
+          "description": "Assesses and manages financial risks using mathematics, statistics, and financial theory."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Technology",
+      "icon":"../src/assets/icon/Name=Tech.svg",
+      "totalJobs": 4,
+      "jobs": [
+        {
+          "title": "Software Developer",
+          "description": "Codes, tests, and maintains software applications to meet the needs of users and businesses."
+        },
+        {
+          "title": "Systems Analyst",
+          "description": "Analyzes and designs information systems to solve business problems and improve efficiency."
+        },
+        {
+          "title": "Network Administrator",
+          "description": "Manages and supports computer networks to ensure smooth and secure communication within an organization."
+        },
+        {
+          "title": "Database Administrator",
+          "description": "Manages and organizes databases, ensuring data integrity, security, and optimal performance."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Engineering",
+      "icon":"../src/assets/icon/Name=Engineering.svg",
+      "totalJobs": 4,
+      "jobs": [
+        {
+          "title": "Mechanical Engineer",
+          "description": "Designs, analyzes, and manufactures mechanical systems and devices."
+        },
+        {
+          "title": "Civil Engineer",
+          "description": "Plans and oversees the construction of infrastructure projects such as buildings, bridges, and roads."
+        },
+        {
+          "title": "Electrical Engineer",
+          "description": "Designs, develops, and tests electrical systems and equipment."
+        },
+        {
+          "title": "Software Engineer",
+          "description": "Develops and maintains software applications, including coding, testing, and debugging."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "category": "Business",
+      "icon":"../src/assets/icon/Name=Business.svg",
+      "totalJobs": 4,
+      "jobs": [
+        {
+          "title": "Business Analyst",
+          "description": "Analyzes business processes, identifies opportunities for improvement, and recommends solutions."
+        },
+        {
+          "title": "Management Consultant",
+          "description": "Provides strategic advice to organizations, helping them improve performance and solve organizational challenges."
+        },
+        {
+          "title": "Operations Manager",
+          "description": "Oversees daily business operations, ensuring efficiency and compliance with company policies."
+        },
+        {
+          "title": "Entrepreneur",
+          "description": "Starts and operates a business, taking on financial risks in the pursuit of innovative ideas and opportunities."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "category": "Human Resource",
+      "icon":"../src/assets/icon/Name=HR.svg",
+      "totalJobs": 4,
+      "jobs": [
+        {
+          "title": "HR Manager",
+          "description": "Oversees human resources functions, including recruitment, training, employee relations, and compliance."
+        },
+        {
+          "title": "Recruitment Specialist",
+          "description": "Identifies and attracts qualified candidates to fill job openings within an organization."
+        },
+        {
+          "title": "Training and Development Manager",
+          "description": "Designs and implements training programs to enhance the skills and knowledge of employees."
+        },
+        {
+          "title": "Employee Relations Specialist",
+          "description": "Manages employee relations, addresses workplace issues, and promotes a positive work environment."
+        }
+      ]
+    }
+  ]
+  

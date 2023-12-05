@@ -4,7 +4,7 @@ import logoPart3 from "../assets/web-logo/Vector 7.png";
 
 const Logo = () => {
   return (
-    <div className="flex items-center gap-2 font-redHatDisplay">
+    <div className="flex items-center gap-3 font-redHatDisplay">
       <div className="relative w-10 h-10 rounded-full overflow-hidden">
         <img className="w-full h-full" src={logoPart1} alt="" />
         <img
