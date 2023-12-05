@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "category": "Sales",
+    "job": "Sales Representative",
+    "time": "Full Time",
+    "location": "New York, NY",
+    "description": "Build and maintain customer relationships, achieve sales targets, and provide excellent customer service.",
+    "companyName": "SalesHub",
+    "companyLogo": "/src/assets/logo/Property 1=Canva.svg"
+  },
+  {
+    "id": 2,
+    "category": "Sales",
+    "job": "Sales Manager",
+    "time": "Part Time",
+    "location": "Los Angeles, CA",
+    "description": "Lead and manage the sales team, develop sales strategies, and collaborate with other departments to achieve business goals.",
+    "companyName": "SprintSales",
+    "companyLogo": "/src/assets/logo/Property 1=Canva.svg"
+  },
+  {
+    "id": 3,
+    "category": "Sales",
+    "job": "Account Executive",
+    "time": "Remote",
+    "location": "Chicago, IL",
+    "description": "Manage key client accounts, identify new business opportunities, and work closely with clients to understand their needs.",
+    "companyName": "SwiftAccounts",
+    "companyLogo": "/src/assets/logo/Property 1=Canva.svg"
+  },
+  {
+    "id": 4,
+    "category": "Design",
+    "job": "Graphic Designer",
+    "time": "Full Time",
+    "location": "San Francisco, CA",
+    "description": "Create visually appealing designs for various platforms, collaborate with the marketing team, and ensure brand consistency.",
+    "companyName": "PixelCraft",
+    "companyLogo": "/src/assets/logo/Property 1=Canva.svg"
+  },
+  {
+    "id": 5,
+    "category": "Design",
+    "job": "UI/UX Designer",
+    "time": "Remote",
+    "location": "Seattle, WA",
+    "description": "Design user interfaces and experiences, conduct user research, and collaborate with cross-functional teams to deliver high-quality designs.",
+    "companyName": "DesignFlow",
+    "companyLogo": "/src/assets/logo/Property 1=Canva.svg"
+  },
+  {
+    "id": 6,
+    "category": "Design",
+    "job": "Product Designer",
+    "time": "Part Time",
+    "location": "Austin, TX",
+    "description": "Conceptualize and design innovative products, collaborate with product managers, and ensure design feasibility.",
+    "companyName": "InnoCraft",
+    "companyLogo": "/src/assets/logo/Property 1=Canva.svg"
+  },
+  {
+    "id": 7,
+    "category": "Marketing",
+    "job": "Marketing Manager",
+    "time": "Full Time",
+    "location": "Miami, FL",
+    "description": "Develop and implement marketing strategies, oversee campaigns, and analyze marketing performance metrics.",
+    "companyName": "MarketMinds",
+    "companyLogo": "/src/assets/logo/Property 1=Canva.svg"
+  },
+  {
+    "id": 8,
+    "category": "Marketing",
+    "job": "Digital Marketing Specialist",
+    "time": "Remote",
+    "location": "Atlanta, GA",
+    "description": "Plan and execute digital marketing campaigns, optimize online content, and analyze digital marketing metrics.",
+    "companyName": "DigitizePro",
+    "companyLogo": "/src/assets/logo/Property 1=Canva.svg"
+  },
+  {
+    "id": 9,
+    "category": "Marketing",
+    "job": "Public Relations Specialist",
+    "time": "Part Time",
+    "location": "Dallas, TX",
+    "description": "Develop and maintain positive relationships with the media, create press releases, and manage public relations initiatives.",
+    "companyName": "MediaLink",
+    "companyLogo": "/src/assets/logo/Property 1=Canva.svg"
+  },
+  {
+    "id": 10,
+    "category": "Finance",
+    "job": "Accountant",
+    "time": "Full Time",
+    "location": "Philadelphia, PA",
+    "description": "Manage financial records, prepare financial statements, and ensure compliance with accounting standards.",
+    "companyName": "AccuCount",
+    "companyLogo": "/src/assets/logo/Property 1=Canva.svg"
+  },
+  {
+    "id": 11,
+    "category": "Finance",
+    "job": "Financial Analyst",
+    "time": "Remote",
+    "location": "Minneapolis, MN",
+    "description": "Analyze financial data, create forecasts, and provide insights to support strategic financial decision-making.",
+    "companyName": "FinAnalytica",
+    "companyLogo": "/src/assets/logo/Property 1=Canva.svg"
+  },
+  {
+    "id": 12,
+    "category": "Finance",
+    "job": "Investment Banker",
+    "time": "Part Time",
+    "location": "Detroit, MI",
+    "description": "Facilitate investment transactions, analyze market trends, and provide financial advisory services.",
+    "companyName": "InvestPro",
+    "companyLogo": "/src/assets/logo/Property 1=Canva.svg"
+  },
+  {
+    "id": 13,
+    "category": "Technology",
+    "job": "Software Developer",
+    "time": "Full Time",
+    "location": "San Diego, CA",
+    "description": "Develop and maintain software applications, collaborate with cross-functional teams, and ensure code quality.",
+    "companyName": "CodeCrafters",
+    "companyLogo": "/src/assets/logo/Property 1=Canva.svg"
+  },
+  {
+    "id": 14,
+    "category": "Technology",
+    "job": "Systems Analyst",
+    "time": "Remote",
+    "location": "Portland, OR",
+    "description": "Analyze and optimize IT systems, recommend improvements, and ensure efficient system operations.",
+    "companyName": "SysOptics",
+    "companyLogo": "/src/assets/logo/Property 1=Canva.svg"
+  },
+  {
+    "id": 15,
+    "category": "Technology",
+    "job": "Network Administrator",
+    "time": "Part Time",
+    "location": "Chicago, IL",
+    "description": "Manage and maintain network infrastructure, troubleshoot connectivity issues, and implement security measures.",
+    "companyName": "NetWizards",
+    "companyLogo": "/src/assets/logo/Property 1=Canva.svg"
+  },
+  {
+    "id": 16,
+    "category": "Engineering",
+    "job": "Mechanical Engineer",
+    "time": "Full Time",
+    "location": "Houston, TX",
+    "description": "Design and analyze mechanical systems, collaborate with project teams, and ensure product reliability.",
+    "companyName": "MechSolutions",
+    "companyLogo": "/src/assets/logo/Property 1=Canva.svg"
+  },
+  {
+    "id": 17,
+    "category": "Engineering",
+    "job": "Civil Engineer",
+    "time": "Remote",
+    "location": "Denver, CO",
+    "description": "Plan and oversee civil engineering projects, ensure compliance with regulations, and manage project timelines.",
+    "companyName": "CityBuild",
+    "companyLogo": "/src/assets/logo/Property 1=Canva.svg"
+  },
+  {
+    "id": 18,
+    "category": "Engineering",
+    "job": "Electrical Engineer",
+    "time": "Part Time",
+    "location": "Seattle, WA",
+    "description": "Design electrical systems, conduct tests, and troubleshoot issues to ensure efficient operation.",
+    "companyName": "ElectroTech",
+    "companyLogo": "/src/assets/logo/Property 1=Canva.svg"
+  },
+  {
+    "id": 19,
+    "category": "Business",
+    "job": "Business Analyst",
+    "time": "Full Time",
+    "location": "Dallas, TX",
+    "description": "Analyze business processes, identify areas for improvement, and recommend solutions to enhance efficiency.",
+    "companyName": "BizStrive",
+    "companyLogo": "/src/assets/logo/Property 1=Canva.svg"
+  },
+  {
+    "id": 20,
+    "category": "Business",
+    "job": "Management Consultant",
+    "time": "Remote",
+    "location": "Atlanta, GA",
+    "description": "Provide strategic advice to businesses, analyze operations, and recommend solutions for organizational improvement.",
+    "companyName": "StratConsult",
+    "companyLogo": "/src/assets/logo/Property 1=Canva.svg"
+  }
+]

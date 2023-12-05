@@ -16,7 +16,7 @@ const BannerSection = () => {
           Great platform for the job seeker that searching for new career
           heights and passionate about startups.
         </p>
-        <form className="p-4 bg-white w-fit flex flex-wrap items-center gap-8">
+        <form className="p-4 bg-white w-fit flex flex-wrap items-center gap-8 z-10">
           <div className="flex items-center gap-3">
             <label htmlFor="">
               <img src={searchIcon} alt="" />
@@ -50,7 +50,7 @@ const BannerSection = () => {
           </div>
           <Button>Search job</Button>
         </form>
-        <p className="my-5 opacity-70 font-medium">
+        <p className="my-5 opacity-70 font-medium z-10">
           Popular : UI Designer, UX Researcher, Android, Admin
         </p>
       </Container>
